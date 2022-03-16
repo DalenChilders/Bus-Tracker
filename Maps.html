@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Bus Tracker App</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="./styles.css">
+
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
+</head>
+<body>
+
+<h1>BusTracker</h1>
+<div id="map"></div>
+<div class="map-overlay top">
+    <button style="font-size: 1em" onclick="move()">
+         To Harvard
+</button>
+    <button style="font-size: 1em" onclick="retreat()">
+        From Harvard
+</button>
+</div>
+
+
+<script src="./mapanimation.js"></script>
+</body>
+</html>
