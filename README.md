@@ -1,8 +1,6 @@
 # Bus-Tracker
 Tracks bus from MIT to Harvard and from Harvard to MIT
 
-<img src='Bus.png'/>
-
 ## To Run
 Clone this repository and open all files in editor of your choice. Then run index.html.
 
